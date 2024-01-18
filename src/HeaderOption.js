@@ -10,7 +10,7 @@ function HeaderOption({ avatar, Icon, title }) {
       {avatar && <Avatar className="headerOption__icon" src={avatar} />}
       <div className="headerOption__userInformation">
         <h3 className="headerOption__title">{title}</h3>
-        {title == "Me" ? (
+        {title === "Me" ? (
           <ArrowDropDownIcon className="headerOption__icon--small" />
         ) : (
           ""
