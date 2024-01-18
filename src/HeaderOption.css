@@ -18,6 +18,16 @@
   width: 25px !important;
 }
 
+.headerOption__icon--small {
+  height: 16px !important;
+  width: 16px !important;
+}
+
 .headerOption:hover {
   color: black;
+}
+
+.headerOption__userInformation {
+  display: flex;
+  /* align-items: center; */
 }

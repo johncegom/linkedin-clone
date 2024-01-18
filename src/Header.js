@@ -28,7 +28,7 @@ function Header() {
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption
           avatar="https://avatars.steamstatic.com/102120263678e0acf24842b6db5424c730ac038b_full.jpg"
-          title="me"
+          title="Me"
         />
       </div>
     </div>

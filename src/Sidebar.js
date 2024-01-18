@@ -17,7 +17,10 @@ function Sidebar() {
           src="https://images.cloudflareapps.com/juNvIegSsixME6FSF01f_background-4.jpeg"
           alt="avatar background"
         />
-        <Avatar className="sidebar__avatar" />
+        <Avatar
+          className="sidebar__avatar"
+          src="https://avatars.steamstatic.com/102120263678e0acf24842b6db5424c730ac038b_full.jpg"
+        />
         <a href="./" className="sidebar__welcomeTitle">
           Welcome, Minh!
         </a>
