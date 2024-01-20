@@ -7,7 +7,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
+import SmsIcon from "@mui/icons-material/Sms";
 
 function Header() {
   return (
@@ -24,7 +24,7 @@ function Header() {
         <HeaderOption Icon={HomeIcon} title="Home" />
         <HeaderOption Icon={SupervisorAccountIcon} title="My Network" />
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
-        <HeaderOption Icon={ChatBubbleIcon} title="Messaging" />
+        <HeaderOption Icon={SmsIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption
           avatar="https://avatars.steamstatic.com/102120263678e0acf24842b6db5424c730ac038b_full.jpg"
