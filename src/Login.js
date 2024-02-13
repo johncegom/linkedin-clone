@@ -5,8 +5,8 @@ import { useDispatch } from "react-redux";
 import { login } from "./features/userSlice";
 
 function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("testuser@example.com");
+  const [password, setPassword] = useState("123456789");
   const [name, setName] = useState("");
   const [profilePic, setProfilePic] = useState("");
   const dispatch = useDispatch();
@@ -49,7 +49,7 @@ function Login() {
             email: userAuth.user.email,
             uid: userAuth.user.uid,
             displayName: userAuth.user.displayName,
-            profileUrl: userAuth.user.photoURL,
+            photoURL: userAuth.user.photoURL,
           })
         );
       })

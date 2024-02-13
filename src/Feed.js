@@ -38,7 +38,7 @@ function Feed() {
       name: user.displayName,
       description: user.email,
       message: input,
-      photoUrl: user.photoUrl || "",
+      photoUrl: user.photoURL || "",
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
 
@@ -49,10 +49,9 @@ function Feed() {
     <div className="feed">
       <div className="feed__inputContainer">
         <div className="feed__inputBody">
-          <Avatar
-            className="feed__avatar"
-            src="https://avatars.steamstatic.com/102120263678e0acf24842b6db5424c730ac038b_full.jpg"
-          />
+          <Avatar className="feed__avatar" src={user?.photoURL}>
+            {user?.email[0].toUpperCase()}
+          </Avatar>
           <div className="feed__input">
             <form>
               <input
